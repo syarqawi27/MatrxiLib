@@ -1,0 +1,6 @@
+C:\Users\PSCAD\Desktop\LIB\MatrixLib\bin\Debug\MatrixLib.dll
+C:\Users\PSCAD\Desktop\LIB\MatrixLib\bin\Debug\MatrixLib.pdb
+C:\Users\PSCAD\Desktop\LIB\MatrixLib\obj\Debug\MatrixLib.csproj.AssemblyReference.cache
+C:\Users\PSCAD\Desktop\LIB\MatrixLib\obj\Debug\MatrixLib.csproj.CoreCompileInputs.cache
+C:\Users\PSCAD\Desktop\LIB\MatrixLib\obj\Debug\MatrixLib.dll
+C:\Users\PSCAD\Desktop\LIB\MatrixLib\obj\Debug\MatrixLib.pdb
