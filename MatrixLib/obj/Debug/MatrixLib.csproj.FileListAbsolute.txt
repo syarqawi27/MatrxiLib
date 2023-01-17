@@ -4,3 +4,10 @@ C:\Users\PSCAD\Desktop\LIB\MatrixLib\obj\Debug\MatrixLib.csproj.AssemblyReferenc
 C:\Users\PSCAD\Desktop\LIB\MatrixLib\obj\Debug\MatrixLib.csproj.CoreCompileInputs.cache
 C:\Users\PSCAD\Desktop\LIB\MatrixLib\obj\Debug\MatrixLib.dll
 C:\Users\PSCAD\Desktop\LIB\MatrixLib\obj\Debug\MatrixLib.pdb
+C:\Users\PSCAD\Source\Repos\MatrxiLib\MatrixLib\bin\Debug\MatrixLib.xml
+C:\Users\PSCAD\Source\Repos\MatrxiLib\MatrixLib\bin\Debug\MatrixLib.dll
+C:\Users\PSCAD\Source\Repos\MatrxiLib\MatrixLib\bin\Debug\MatrixLib.pdb
+C:\Users\PSCAD\Source\Repos\MatrxiLib\MatrixLib\obj\Debug\MatrixLib.csproj.AssemblyReference.cache
+C:\Users\PSCAD\Source\Repos\MatrxiLib\MatrixLib\obj\Debug\MatrixLib.csproj.CoreCompileInputs.cache
+C:\Users\PSCAD\Source\Repos\MatrxiLib\MatrixLib\obj\Debug\MatrixLib.dll
+C:\Users\PSCAD\Source\Repos\MatrxiLib\MatrixLib\obj\Debug\MatrixLib.pdb
