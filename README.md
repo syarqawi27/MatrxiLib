@@ -1,7 +1,7 @@
-Feature of GUI ( URL to DLL)\
+1)Feature of GUI ( URL to DLL)\
       -what you put in Form\
-Feature of DLL (DLL to GUI)\
+2)Feature of DLL (DLL to GUI)\
       -Constructor\
       -method\
       -operator overloaded\
-Gold Standard URL
+3)Gold Standard URL
