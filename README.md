@@ -4,4 +4,4 @@ Feature of DLL (DLL to GUI)\
       -Constructor\
       -method\
       -operator overloaded\
-Gold Standard URL\
+Gold Standard URL
