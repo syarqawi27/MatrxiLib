@@ -1,0 +1,17 @@
+C:\Users\NAJWA SABARUDIN\Desktop\MatrixLib\unittest\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.AssemblyReference.cache
+C:\Users\NAJWA SABARUDIN\Desktop\MatrixLib\unittest\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CoreCompileInputs.cache
+C:\Users\NAJWA SABARUDIN\Desktop\MatrixLib\unittest\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\NAJWA SABARUDIN\Desktop\MatrixLib\unittest\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\NAJWA SABARUDIN\Desktop\MatrixLib\unittest\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\NAJWA SABARUDIN\Desktop\MatrixLib\unittest\UnitTestProject1\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\NAJWA SABARUDIN\Desktop\MatrixLib\unittest\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\Users\NAJWA SABARUDIN\Desktop\MatrixLib\unittest\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+C:\Users\NAJWA SABARUDIN\Desktop\MatrixLib\unittest\UnitTestProject1\bin\Debug\MatrixLib.dll
+C:\Users\NAJWA SABARUDIN\Desktop\MatrixLib\unittest\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\NAJWA SABARUDIN\Desktop\MatrixLib\unittest\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\NAJWA SABARUDIN\Desktop\MatrixLib\unittest\UnitTestProject1\bin\Debug\MatrixLib.pdb
+C:\Users\NAJWA SABARUDIN\Desktop\MatrixLib\unittest\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\NAJWA SABARUDIN\Desktop\MatrixLib\unittest\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\NAJWA SABARUDIN\Desktop\MatrixLib\unittest\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CopyComplete
+C:\Users\NAJWA SABARUDIN\Desktop\MatrixLib\unittest\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+C:\Users\NAJWA SABARUDIN\Desktop\MatrixLib\unittest\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

@@ -1,0 +1,7 @@
+C:\Users\NAJWA SABARUDIN\Desktop\MatrixLib\MatrixLib\bin\Debug\MatrixLib.dll
+C:\Users\NAJWA SABARUDIN\Desktop\MatrixLib\MatrixLib\bin\Debug\MatrixLib.pdb
+C:\Users\NAJWA SABARUDIN\Desktop\MatrixLib\MatrixLib\obj\Debug\MatrixLib.csproj.AssemblyReference.cache
+C:\Users\NAJWA SABARUDIN\Desktop\MatrixLib\MatrixLib\obj\Debug\MatrixLib.csproj.CoreCompileInputs.cache
+C:\Users\NAJWA SABARUDIN\Desktop\MatrixLib\MatrixLib\obj\Debug\MatrixLib.dll
+C:\Users\NAJWA SABARUDIN\Desktop\MatrixLib\MatrixLib\obj\Debug\MatrixLib.pdb
+C:\Users\NAJWA SABARUDIN\Desktop\MatrixLib\MatrixLib\bin\Debug\MatrixLib.xml
