@@ -64,6 +64,9 @@ namespace MatrixLib
             set { _I = value; }
         }
 
+        /// <summary>
+        /// contructor for 3x3 matrices
+        /// </summary>
         public Matrix()
         {
             _A = 0;
@@ -77,6 +80,10 @@ namespace MatrixLib
             _I = 0;
         }
 
+        /// <summary>
+        ///Transpose is a method of interchange rows into columns and columns into rows 
+        /// </summary>
+        /// <returns>the value of the row into column and the value of column into row </returns>
         public Matrix Transpose()
         {
             Matrix temp = new Matrix();
@@ -93,7 +100,13 @@ namespace MatrixLib
 
             return temp;
         }
-        public static Matrix operator +(Matrix op1, Matrix op2)
+        /// <summary>
+        /// the operation of adding two matrices by adding the corresponding entries together
+        /// </summary>
+        /// <param name="op1"> First matrice of the addition operation</param> 
+        /// <param name="op2"> Second matrice of the addtion operation</param>
+        /// <returns>the total value of both op1 and op2</returns>
+        public static Matrix operator +(Matrix op1, Matrix op2) 
         {
             Matrix temp = new Matrix();
 
@@ -110,6 +123,14 @@ namespace MatrixLib
             return temp;
 
         }
+
+        /// <summary>
+        /// The operation where element wise substraction applies to the matrices of the same order, which essentially 
+        /// means that substraction between two matrices can only happen when both pf them have the same number of rows and columns.
+        /// </summary>
+        /// <param name="op1">First matrice of the substraction in operation </param>
+        /// <param name="op2">Second matrice of the substraction in operation</param>
+        /// <returns> the subtration value of op1 and op2 </returns>
         public static Matrix operator -(Matrix op1, Matrix op2)
         {
             Matrix temp = new Matrix();
@@ -128,6 +149,12 @@ namespace MatrixLib
 
         }
 
+        /// <summary>
+        /// the operation of substraction two matrices by adding the corresponding entries together
+        /// </summary>
+        /// <param name="op1"> First matrice of the multipication in operation</param>
+        /// <param name="op2"> second matrice of the multiplication in operation</param>
+        /// <returns></returns>
         public static Matrix operator *(Matrix op1, Matrix op2)
         {
 
