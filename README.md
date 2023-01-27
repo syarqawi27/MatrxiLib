@@ -1,7 +1,7 @@
 # Matrix Library
 The GUI version based on Matrix Library at:
 
-https://github.com/nnjwsbrdn/Matrix/blob/main/README.md
+https://github.com/nnjwsbrdn/Matrix
 
 Sample Usage :
 
