@@ -1,199 +1,187 @@
 # Matrix Library
-The GUI version based on Matrix Library at:
+The Matrix Library based on GUI at:
 
 https://github.com/nnjwsbrdn/Matrix
 
 Sample Usage :
 
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using MatrixLib;
+using System;\
+using System.Collections.Generic;\
+using System.Linq;\
+using System.Text;\
+using System.Threading.Tasks;\
 
-namespace UnitTestProject1
+namespace MatrixLib
 {
-    [TestClass]
-    public class UnitTest1
+    public partial class Matrix
     {
-        [TestMethod]
-        public void TestConstructor() // constructurs
+        double _A, _B, _C, _D, _E, _F, _G, _H, _I;
+
+        public double A
         {
-            MatrixLib.Matrix Transpose = new Matrix();
+            get { return _A; }
+            set { _A = value; }
+        }
 
-            Transpose.A = 10;
-            Transpose.B = 20;
-            Transpose.C = 30;
-            Transpose.D = 40;
-            Transpose.E = 50;
-            Transpose.F = 60;
-            Transpose.G = 100;
-            Transpose.H = 200;
-            Transpose.I = 500;
+        public double B
+        {
+            get { return _B; }
+            set { _B = value; }
+        }
 
+        public double C
+        {
+            get { return _C; }
+            set { _C = value; }
+        }
 
-            Assert.AreEqual(10, Transpose.A);
-            Assert.AreEqual(20, Transpose.B);
-            Assert.AreEqual(30, Transpose.C);
-            Assert.AreEqual(40, Transpose.D);
-            Assert.AreEqual(50, Transpose.E);
-            Assert.AreEqual(60, Transpose.F);
-            Assert.AreEqual(100, Transpose.G);
-            Assert.AreEqual(200, Transpose.H);
-            Assert.AreEqual(500, Transpose.I);
+        public double D
+        {
+            get { return _D; }
+            set { _D = value; }
+        }
+
+        public double E
+        {
+            get { return _E; }
+            set { _E = value; }
+        }
+
+        public double F
+        {
+            get { return _F; }
+            set { _F = value; }
+        }
+
+        public double G
+        {
+            get { return _G; }
+            set { _G = value; }
+        }
+
+        public double H
+        {
+            get { return _H; }
+            set { _H = value; }
+        }
+
+        public double I
+        {
+            get { return _I; }
+            set { _I = value; }
+        }
+
+        /// <summary>
+        /// contructor for 3x3 matrices
+        /// </summary>
+        public Matrix()
+        {
+            _A = 0;
+            _B = 0;
+            _C = 0;
+            _D = 0;
+            _E = 0;
+            _F = 0;
+            _G = 0;
+            _H = 0;
+            _I = 0;
+        }
+
+        /// <summary>
+        ///Transpose is a method of interchange rows into columns and columns into rows 
+        /// </summary>
+        /// <returns>the value of the row into column and the value of column into row </returns>
+        public Matrix Transpose()
+        {
+            Matrix temp = new Matrix();
+
+            temp.A = _A;
+            temp.B = _D;
+            temp.C = _G;
+            temp.D = _B;
+            temp.E = _E;
+            temp.F = _H;
+            temp.G = _C;
+            temp.H = _F;
+            temp.I = _I;
+
+            return temp;
+        }
+        /// <summary>
+        /// the operation of adding two matrices by adding the corresponding entries together
+        /// </summary>
+        /// <param name="op1"> First matrice of the addition operation</param> 
+        /// <param name="op2"> Second matrice of the addtion operation</param>
+        /// <returns>the total value of both op1 and op2</returns>
+        public static Matrix operator +(Matrix op1, Matrix op2) 
+        {
+            Matrix temp = new Matrix();
+
+            temp.A = op1.A + op2.A;
+            temp.B = op1.B + op2.B;
+            temp.C = op1.C + op2.C;
+            temp.D = op1.D + op2.D;
+            temp.E = op1.E + op2.E;
+            temp.F = op1.F + op2.F;
+            temp.G = op1.G + op2.G;
+            temp.H = op1.H + op2.H;
+            temp.I = op1.I + op2.I;
+
+            return temp;
 
         }
 
-        [TestMethod]
-
-        public void SetterGetterTest()
+        /// <summary>
+        /// The operation where element wise substraction applies to the matrices of the same order, which essentially 
+        /// means that substraction between two matrices can only happen when both pf them have the same number of rows and columns.
+        /// </summary>
+        /// <param name="op1">First matrice of the substraction in operation </param>
+        /// <param name="op2">Second matrice of the substraction in operation</param>
+        /// <returns> the subtration value of op1 and op2 </returns>
+        public static Matrix operator -(Matrix op1, Matrix op2)
         {
-            MatrixLib.Matrix Transpose = new Matrix();
+            Matrix temp = new Matrix();
 
-            Transpose.A = 10;
-            Transpose.B = 20;
-            Transpose.C = 30;
-            Transpose.D = 40;
-            Transpose.E = 50;
-            Transpose.F = 60;
-            Transpose.G = 100;
-            Transpose.H = 200;
-            Transpose.I = 500;
+            temp.A = op1.A - op2.A;
+            temp.B = op1.B - op2.B;
+            temp.C = op1.C - op2.C;
+            temp.D = op1.D - op2.D;
+            temp.E = op1.E - op2.E;
+            temp.F = op1.F - op2.F;
+            temp.G = op1.G - op2.G;
+            temp.H = op1.H - op2.H;
+            temp.I = op1.I - op2.I;
 
-            Assert.AreEqual(10, Transpose.A);
-            Assert.AreEqual(20, Transpose.B);
-            Assert.AreEqual(30, Transpose.C);
-            Assert.AreEqual(40, Transpose.D);
-            Assert.AreEqual(50, Transpose.E);
-            Assert.AreEqual(60, Transpose.F);
-            Assert.AreEqual(100, Transpose.G);
-            Assert.AreEqual(200, Transpose.H);
-            Assert.AreEqual(500, Transpose.I);
+            return temp;
+
         }
 
-        [TestMethod]
-
-        public void AdditionTest()
+        /// <summary>
+        /// the operation of substraction two matrices by adding the corresponding entries together
+        /// </summary>
+        /// <param name="op1"> First matrice of the multipication in operation</param>
+        /// <param name="op2"> second matrice of the multiplication in operation</param>
+        /// <returns></returns>
+        public static Matrix operator *(Matrix op1, Matrix op2)
         {
-            MatrixLib.Matrix op1 = new Matrix();
-            MatrixLib.Matrix op2 = new Matrix();
-            MatrixLib.Matrix result;
 
-            op1.A = 1;
-            op1.B = 2;
-            op1.C = 3;
-            op1.D = 4;
-            op1.E = 5;
-            op1.F = 6;
-            op1.G = 7;
-            op1.H = 8;
-            op1.I = 9;
+            Matrix temp = new Matrix();
 
-            op2.A = 10;
-            op2.B = 11;
-            op2.C = 12;
-            op2.D = 13;
-            op2.E = 14;
-            op2.F = 15;
-            op2.G = 16;
-            op2.H = 17;
-            op2.I = 18;
+            temp.A = (op1.A * op2.A) + (op1.B * op2.D) + (op1.C * op2.G);
+            temp.B = (op1.A * op2.B) + (op1.B * op2.E) + (op1.C * op2.H);
+            temp.C = (op1.A * op2.C) + (op1.B * op2.F) + (op1.C * op2.I);
+            temp.D = (op1.D * op2.A) + (op1.E * op2.D) + (op1.F * op2.G);
+            temp.E = (op1.D * op2.B) + (op1.E * op2.E) + (op1.F * op2.H);
+            temp.F = (op1.D * op2.C) + (op1.E * op2.F) + (op1.F * op2.I);
+            temp.G = (op1.G * op2.A) + (op1.H * op2.D) + (op1.I * op2.G);
+            temp.H = (op1.G * op2.B) + (op1.H * op2.E) + (op1.I * op2.H);
+            temp.I = (op1.G * op2.C) + (op1.H * op2.F) + (op1.I * op2.I);
 
-            result = op1 + op2;
-
-            Assert.AreEqual(result.A, 11);
-            Assert.AreEqual(result.B, 13);
-            Assert.AreEqual(result.C, 15);
-            Assert.AreEqual(result.D, 17);
-            Assert.AreEqual(result.E, 19);
-            Assert.AreEqual(result.F, 21);
-            Assert.AreEqual(result.G, 23);
-            Assert.AreEqual(result.H, 25);
-            Assert.AreEqual(result.I, 27);
+            return temp;
         }
-
-        [TestMethod]
-
-        public void SubtractionTest()
-        {
-            MatrixLib.Matrix op1 = new Matrix();
-            MatrixLib.Matrix op2 = new Matrix();
-            MatrixLib.Matrix result;
-
-            op1.A = 10;
-            op1.B = 20;
-            op1.C = 30;
-            op1.D = 40;
-            op1.E = 50;
-            op1.F = 60;
-            op1.G = 70;
-            op1.H = 80;
-            op1.I = 90;
-
-            op2.A = 2;
-            op2.B = 4;
-            op2.C = 6;
-            op2.D = 8;
-            op2.E = 10;
-            op2.F = 20;
-            op2.G = 30;
-            op2.H = 40;
-            op2.I = 50;
-
-            result = op1 - op2;
-
-            Assert.AreEqual(result.A, 8);
-            Assert.AreEqual(result.B, 16);
-            Assert.AreEqual(result.C, 24);
-            Assert.AreEqual(result.D, 32);
-            Assert.AreEqual(result.E, 40);
-            Assert.AreEqual(result.F, 40);
-            Assert.AreEqual(result.G, 40);
-            Assert.AreEqual(result.H, 40);
-            Assert.AreEqual(result.I, 40);
-        }
-
-        [TestMethod]
-
-        public void MultiplicationTest()
-        {
-            MatrixLib.Matrix op1 = new Matrix();
-            MatrixLib.Matrix op2 = new Matrix();
-            MatrixLib.Matrix result;
-
-            op1.A = 1;
-            op1.B = 2;
-            op1.C = 3;
-            op1.D = 4;
-            op1.E = 5;
-            op1.F = 6;
-            op1.G = 7;
-            op1.H = 8;
-            op1.I = 9;
-
-            op2.A = 10;
-            op2.B = 11;
-            op2.C = 12;
-            op2.D = 13;
-            op2.E = 14;
-            op2.F = 15;
-            op2.G = 16;
-            op2.H = 17;
-            op2.I = 18;
-
-            result = op1 * op2;
-
-            Assert.AreEqual(result.A, 84);
-            Assert.AreEqual(result.B, 90);
-            Assert.AreEqual(result.C, 96);
-            Assert.AreEqual(result.D, 201);
-            Assert.AreEqual(result.E, 216);
-            Assert.AreEqual(result.F, 231);
-            Assert.AreEqual(result.G, 318);
-            Assert.AreEqual(result.H, 342);
-            Assert.AreEqual(result.I, 366);
-        }
-
     }
 }
+
 
 __Team members :__
 
