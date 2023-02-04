@@ -182,6 +182,8 @@ namespace MatrixLib
     }
 }
 
+In this library, there is only class, in the class it consist one constructor and four operation.
+
 
 __Team members :__
 
