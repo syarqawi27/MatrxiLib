@@ -28,3 +28,20 @@ C:\Users\PSCAD\Desktop\New folder\MatrixLib\unittest\UnitTestProject1\bin\Debug\
 C:\Users\PSCAD\Desktop\New folder\MatrixLib\unittest\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CopyComplete
 C:\Users\PSCAD\Desktop\New folder\MatrixLib\unittest\UnitTestProject1\obj\Debug\UnitTestProject1.dll
 C:\Users\PSCAD\Desktop\New folder\MatrixLib\unittest\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
+C:\Users\faizc\Documents\MatrixLib\MatrixLib\unittest\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\faizc\Documents\MatrixLib\MatrixLib\unittest\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\faizc\Documents\MatrixLib\MatrixLib\unittest\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\faizc\Documents\MatrixLib\MatrixLib\unittest\UnitTestProject1\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\faizc\Documents\MatrixLib\MatrixLib\unittest\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\Users\faizc\Documents\MatrixLib\MatrixLib\unittest\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+C:\Users\faizc\Documents\MatrixLib\MatrixLib\unittest\UnitTestProject1\bin\Debug\MatrixLib.dll
+C:\Users\faizc\Documents\MatrixLib\MatrixLib\unittest\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\faizc\Documents\MatrixLib\MatrixLib\unittest\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\faizc\Documents\MatrixLib\MatrixLib\unittest\UnitTestProject1\bin\Debug\MatrixLib.pdb
+C:\Users\faizc\Documents\MatrixLib\MatrixLib\unittest\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\faizc\Documents\MatrixLib\MatrixLib\unittest\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\faizc\Documents\MatrixLib\MatrixLib\unittest\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.AssemblyReference.cache
+C:\Users\faizc\Documents\MatrixLib\MatrixLib\unittest\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CoreCompileInputs.cache
+C:\Users\faizc\Documents\MatrixLib\MatrixLib\unittest\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CopyComplete
+C:\Users\faizc\Documents\MatrixLib\MatrixLib\unittest\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+C:\Users\faizc\Documents\MatrixLib\MatrixLib\unittest\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
