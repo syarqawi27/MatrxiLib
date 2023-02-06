@@ -5,7 +5,7 @@ __Team members :__
 3) Muhammad Syarqawi bin Sazali (2190771)
 
 # Matrix Library
-In this Lbrary, it features:
+In this Library, it features:
 
 1. One constructor parameter
 2. Transpose operation where the value are interchange from rows to column.
