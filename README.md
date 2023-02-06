@@ -14,10 +14,10 @@ In this Lbrary, it features:
 5. Multiplication where its a summation or, more compactly, a dot product of rows of A and columns of B.
 
 
-#Matrix GUI
+## Matrix GUI
 https://github.com/nnjwsbrdn/Matrix
 
-#Gold Standard URL
+## Gold Standard URL
 https://matrixcalc.org/
 
 
